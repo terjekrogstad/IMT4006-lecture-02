@@ -1,0 +1,24 @@
+<h2>Server-side JavaScript</h2>
+
+<p>
+    <a href="http://nodejs.org/" title="_blank">Node.js</a> and <a href="https://iojs.org/" target="_blank">IO.js (Fork of Node.js)</a> are both platforms based on Chromes JavaScript runtime V8
+</p>
+
+<pre>
+    <code class="javascript">
+    // Load the http module to create an http server.
+    var http = require('http');
+
+    // HTTP server responds with Hello World to all requests.
+    var server = http.createServer(function (request, response) {
+      response.writeHead(200, {'Content-Type': 'text/plain'});
+      response.end( 'Hello World\n' );
+    });
+
+    // Listen on port 8000, IP defaults to 127.0.0.1
+    server.listen(8000);
+
+    // Put a friendly message on the terminal
+    console.log( 'Server running at http://127.0.0.1:8000/' );
+    </code>
+</pre>
