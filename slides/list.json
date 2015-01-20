@@ -84,6 +84,9 @@
         "http2-features.html",
         "spdy-intro.html"
     ],
-    "workshop.html",
+    [
+        "workshop.html",
+        "workshop-ii.html"
+    ],
     "references.html"
 ]
