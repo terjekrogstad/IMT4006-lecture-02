@@ -1,3 +1,26 @@
 <h2>Microdata Global Attributes</h2>
 
-<p>Please change me!</p>
+<p>Microdata is composed of five global attributes</p>
+
+<ul>
+    <li>itemscope : Scope of a single item</li>
+    <li>itemprop : For assigning properties to elements</li>
+    <li>itemtype : A URL that specifies the vocabulary</li>
+    <li>itemref : References to related elements</li>
+    <li>itemid : A global unique identifier for the element in semantic context</li>
+</ul>
+
+<pre class="fragment roll-in">
+    <code>
+
+<div id="microdata" itemscope itemtype="http://data-vocabulary.org/Person"> 
+  My name is <span itemprop="name">Bob Smith</span> 
+  but people call me <span itemprop="nickname">Smithy</span>. 
+  Here is my home page:
+  <a href="http://www.example.com" itemprop="url">www.example.com</a>
+  I live in Oslo and work as an <span itemprop="title">engineer</span>
+  at <span itemprop="affiliation">ACME Corp</span>.
+</div>
+    </code>
+</pre>
+

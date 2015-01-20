@@ -44,30 +44,26 @@
     [
         "html-5.html",
         "html5-doctype.html",
+        "structural-elements.html",
         "new-elements-i.html",
         "new-elements-ii.html",
-        "new-elements-iii.html",
-        "structural-elements.html",
+        "htmlmediaelement-interface.html",
         "microdata.html",
         "microdata-global-attributes.html",
         "microdata-dom-api.html",
         "html5-global-attributes.html",
         "html5-custom-data-attributes.html",
         "html5-forms-i.html",
-        "input-types.html",
         "html5-forms-input-types.html",
-        "html5-forms-attributes.html",
-        "htmlmediaelement-interface.html"
+        "html5-forms-attributes.html"
     ],
     [
         "css-3.html",
         "css3-modules.html",
         "css3-media-queries.html",
-        "css3-selectors.html",
-        "css3-multi-column-layout.html",
-        "css3-background-and-borders.html",
-        "css3-etc.html"
+        "css3-selectors.html"
     ],
+    "deeper-into-html5-css3-and-related.html",
     [
         "ecma-5.html",
         "ecma-5-json.html"
@@ -85,7 +81,8 @@
     ],
     [
         "http2.html",
-        "http2-features.html"
+        "http2-features.html",
+        "spdy-intro.html"
     ],
     "workshop.html",
     "references.html"

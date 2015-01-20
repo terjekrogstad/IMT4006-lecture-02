@@ -1,3 +1,11 @@
 <h2>Microdata DOM API</h2>
 
-<p>Please change me!</p>
+<p>Microdata also has an associated DOM API to manipulate items and properties</p>
+<pre>
+This sample gets the first item of type "http://example.net/user" and then pops up an alert using the "name" property from that item.
+    <code class="javascript">
+    var user = document.getItems('http://example.net/user')[0];
+    alert('Hello ' + user.properties['name'][0].itemValue + '!');
+    </code>
+</pre>
+<small>Reference: <a href="http://www.w3.org/TR/microdata/#using-the-microdata-dom-api" target="_blank">W3C Microdata specification</a></small>
