@@ -25,6 +25,7 @@
     ],
     [
         "javascript.html",
+        "prototypal-inheritance.html",
         "javascript-and-dom.html",
         "javascript-features.html",
         "server-side-javascript.html",
